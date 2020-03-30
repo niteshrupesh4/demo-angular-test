@@ -37,7 +37,15 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { PlatformModule } from '@angular/cdk/platform';
 import { ObserversModule } from '@angular/cdk/observers';
 import { PortalModule } from '@angular/cdk/portal';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSortModule } from '@angular/material/sort';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 /**
  * NgModule that includes all Material modules that are required to serve the demo-app.
  */
@@ -65,15 +73,15 @@ import { PortalModule } from '@angular/cdk/portal';
     MatRadioModule,
     MatRippleModule,
     MatSelectModule,
-    // MatSidenavModule,
-    // MatSlideToggleModule,
-    // MatSliderModule,
-    // MatSnackBarModule,
-    // MatSortModule,
-    // MatStepperModule,
-    // MatTabsModule,
-    // MatToolbarModule,
-    // MatTooltipModule,
+    MatSidenavModule,
+    MatSlideToggleModule,
+    MatSliderModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatStepperModule,
+    MatTabsModule,
+    MatToolbarModule,
+    MatTooltipModule,
     MatNativeDateModule,
     CdkTableModule,
     A11yModule,
