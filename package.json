@@ -21,6 +21,7 @@
     "core-js": "2.6.9",
     "firebase": "^7.13.1",
     "hammerjs": "^2.0.8",
+    "jquery": "^3.4.1",
     "ng-chartist": "^4.1.0",
     "node-sass": "^4.13.1",
     "rxjs": "6.5.2",
